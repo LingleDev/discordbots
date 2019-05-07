@@ -15,7 +15,7 @@ module.exports = class DBL {
       })
       .then(check)
       .then(bOre => {
-        if (bOre instanceOf Error) throw bOre; else {
+        if (typeof(bOre) == Error) throw bOre; else {
           res(bOre)
         }
       })
