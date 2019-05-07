@@ -1,0 +1,13 @@
+{
+  "name": "discordbots",
+  "version": "0.0.1-alpha",
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "latest"
+  },
+  "author": "FHGDev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FHGDev/discordbots"
+  }
+}
